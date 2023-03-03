@@ -42,11 +42,15 @@ apktool b decompiled-apk-folder/ Output.apk
 
 # Step 4. Sign APK
 
+```
 java -jar signapk.jar certificate.pem key.pk8 decompiled-apk-folder/dist/Output.apk ./Ouput_signed.apk
+```
 
 # Step 5. Align APK
 
+```
 zipalign -p -f -v 4 Output_signed.apk Output_signed_aligned.apk
+```
 
 # Step 6. Install
 
