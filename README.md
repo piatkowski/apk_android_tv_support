@@ -60,4 +60,6 @@ zipalign -p -f -v 4 Output_signed.apk Output_signed_aligned.apk
 
 Upload APK to device and install Output_signed_aligned.apk
 
+# Notes
 
+In some cases you can try change order of sign and align commands.
