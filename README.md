@@ -11,9 +11,9 @@ apktool d Input.apk
 2. Add features
 
 ```xml
-<uses-feature ndroid:name="android.software.leanback" android:required="true" />
-<uses-feature android:required="false" android:name="android.hardware.faketouch"/>
-<uses-feature android:required="false" android:name="android.hardware.touchscreen"/>
+<uses-feature android:name="android.software.leanback" android:required="true" />
+<uses-feature android:name="android.hardware.faketouch" android:required="false" />
+<uses-feature android:name="android.hardware.touchscreen" android:required="false" />
 ```
 
 3. Remove any permission related to mobile phone or tablet for example: camera, touchscreen, sensors, etc.
