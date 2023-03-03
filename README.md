@@ -24,7 +24,11 @@ apktool d Input.apk
 <application ... android:banner="@drawable/...">
 ```
 
-5. Change orientation -> android:screenOrientation="landscape"
+5. Change orientation, look for android:screenOrientation
+
+```
+android:screenOrientation="landscape"
+```
 
 6. Add leanback in intent-filter in main acitivty
 
