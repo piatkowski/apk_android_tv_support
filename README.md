@@ -20,7 +20,7 @@ apktool d Input.apk
 
 4. Add banner
 
-```
+```xml
 <application ... android:banner="@drawable/...">
 ```
 
@@ -28,7 +28,7 @@ apktool d Input.apk
 
 6. Add leanback in intent-filter in main acitivty
 
-```
+```xml
 <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
 ```
 
